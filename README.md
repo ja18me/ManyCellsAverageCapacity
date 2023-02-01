@@ -9,13 +9,13 @@ To use the script, it is advisable to create a python virtual environment and ru
 
 HOW TO RUN THE SCRIPT
 ---
-+Please, move the maccor text files in the same directory where the script 'Average.py' is installed.  
-+Run the script. 
-+You will be asked to specific two numbers (columns of the MACCOR text file to work out the average). 
-+You will get the average of charge the discharge values at a given cycle number for multiple cells. 
++Please, move the maccor text files in the same directory where the script 'Average.py' is installed.\
++Run the script.\
++You will be asked to specific two numbers (columns of the MACCOR text file to work out the average).\
++You will get the average of charge the discharge values at a given cycle number for multiple cells.\
 
 
 Example
 ---
 Try: py Averarge.py 2 3\
-Here 2 refers to the second column (cycle number) and third column (the discharge capacity values).
+Here 2 refers to the second column (cycle number) and 3 to the third column (the discharge capacity values).
