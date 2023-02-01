@@ -17,6 +17,5 @@ HOW TO RUN THE SCRIPT
 
 Example
 ---
-
-Try: py Averarge.py 2 3
+Try: py Averarge.py 2 3\
 Here 2 refers to the second column (cycle number) and third column (the discharge capacity values).
