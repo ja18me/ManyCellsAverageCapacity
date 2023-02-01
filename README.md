@@ -1,7 +1,7 @@
 ManyCellsAverageCapacity
 =========================
 
-To allow for statistics in cell cycling testing experiments, this script averages the discharge or charge capacity in a given number of cycles of multiples cells. The scripts discards the first two and last two cycles as our group carry on testing cycles before and after the experiments. The script works with text file from MACCOR cyclers.
+To allow for statistics in cell cycling testing experiments, this script averages cycling data files of multiple cells for the same cycling protocol using the discharge or charge capacity in a given number of cycles. The script discards the first two and last two cycles as our group carries on testing cycles before and after the experiments. The python program works with text files from MACCOR cyclers.
 
 INSTALLATION
 ---
@@ -9,4 +9,13 @@ To use the script, it is advisable to create a python virtual environment and ru
 
 HOW TO RUN THE SCRIPT
 ---
-Please, move the mpr files in the same directory where the script 'Read_EIS.py' is installed. Run the script. You will get text files with the data needed. 
+*Please, move the maccor text files in the same directory where the script 'Average.py' is installed. 
+*Run the script. 
+*You will be asked to specific two numbers (columns of the MACCOR text file to work out the average)
+*You will get the average of charge the discharge values at a given cycle number for multiple cells.
+
+Example
+---
+
+Try: py Averarge.py 2 3
+Here 2 refers to the second column (cycle number) and third column (the discharge capacity values).
